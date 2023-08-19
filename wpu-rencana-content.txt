@@ -1,6 +1,7 @@
 RENCANA KONTENT WPU
 
 -Javascript
+Struktur Data Dasar
 -PHP Framework
 -Interview
 -Vlogs
