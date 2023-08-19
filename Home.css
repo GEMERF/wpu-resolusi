@@ -1,0 +1,343 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height:400px ;
+    background-color:#31322e ;
+    color: #fff;
+  }
+  
+  nav {
+
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #71736a;
+    width: 100%;
+    height: 50px;    
+  }
+
+  nav div {
+    width: 70px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  nav div img {
+    margin-left: 20px;
+    margin-top: 11px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    box-sizing:border-box
+  }
+
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 12px;
+
+  }
+  
+  nav ul li a {
+    padding-top: 14px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    height: 50px;
+    box-sizing:border-box ;
+  }
+
+  nav ul li a:hover {
+    background-color: #31322e;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  /* header */
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* atau atur tinggi sesuai kebutuhan */
+  }
+
+  .hero img {
+    margin-top: -100px;
+    width: 20%;
+    float: right;
+    margin-top: 2%;
+
+  }
+
+  .permulaan {
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 30px;
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+
+  header div .permulaan h1{
+    font-size: 200%;
+    font-weight: bold;
+  }
+
+  .hero {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  /* services */
+
+  .services {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .services h3 {
+    font-size: 28px;
+  }
+  
+  .videography {
+    width: 50%;
+    height: 257px;
+    border-right:3px solid#71736a ;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    background-color:#71736a  ;
+    cursor: pointer;
+  }
+  
+  .Videography_Teknik{
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .Videography_Teknik:hover {
+    background-color: #286090;
+  }
+  
+
+  .photography {
+    width: 50%;
+    height: 257px;
+    border-left:3px solid#71736a ;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    background-color:#71736a  ;
+    cursor: pointer;
+  }
+  
+  .Photography_Teknik{
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .Photography_Teknik:hover {
+    background-color: #286090;
+  }
+  
+  
+  .videography img {
+    width: 50px;
+    margin-top: 17px;
+    margin-bottom: 23px;
+  }
+
+  .photography img {
+    width:85px ;
+    margin-bottom: 5px;
+  }
+  
+  .videography h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .photography h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .videography p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .photography p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+.logo img {
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+ .cf {
+  *zoom: 1;
+}
